@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body div {
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 100%);
+  align-items: center;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 300px;
+  text-align: center;
+  margin: 30px;
+  border: 2px solid hsl(0, 0%, 7%);
+  transition: box-shadow 0.5s ease-in-out;
+}
+body div p {
+  margin-top: 10px;
+  color: hsl(0, 0%, 42%);
+}
+body div #illustration {
+  width: 250px;
+  margin: 20px;
+  border-radius: 20px;
+}
+body div #description {
+  text-align: left;
+  margin-left: 20px;
+}
+body div #active {
+  text-align: left;
+  background-color: hsl(47, 88%, 63%);
+  color: hsl(0, 0%, 7%);
+  margin-left: 20px;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-weight: bold;
+}
+body div #title {
+  font-size: larger;
+  font-weight: 900;
+  font-family: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+  color: hsl(0, 0%, 7%);
+}
+body div figure {
+  display: flex;
+  flex-direction: row;
+  align-self: baseline;
+  margin: 20px;
+}
+body div figure #profile {
+  width: 40px;
+}
+body div figure figcaption {
+  margin-left: 10px;
+  align-self: center;
+  color: hsl(0, 0%, 7%);
+  font-weight: bold;
+}
+
+div:hover {
+  box-shadow: 10px 10px 20px hsl(0, 0%, 7%);
+}
+
+footer {
+  align-items: baseline;
+  display: flex;
+  flex-direction: column;
+  color: hsl(0, 0%, 42%);
+}/*# sourceMappingURL=styles.css.map */
